@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali's Temperature Calculator</title>
+    <link rel="stylesheet" href="temp.css">
+</head>
+<body>
+    <h1>Tempreture Converter</h1>
+    <div class="input">
+        <label for="temp">Temperature Value</label>
+        <input type="number" name="temp" id="temp" value="temp">
+    <br><br>
+    </div>
+    <button onclick="cel()">Convert to Celsius</button>
+    <button onclick="feh()">Convert to Fahrenhiet</button>
+    <h3>Result: <span id="result"></span> </h3>
+    <h3>Calculated on: <span id="date"></span> </h3>
+    <script src="scriptTemp.js"></script>       
+</body>
+</html>
